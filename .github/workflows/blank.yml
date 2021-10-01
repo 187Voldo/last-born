@@ -1,4 +1,34 @@
-- name: Downloading Ngrok.
+0:02
+/
+13:37
+
+
+
+
+Description
+Create Mobile RDP || Mobile RDP For 6 Hours Non Stop || Android RDP || Mr Arif Baba
+Mr Arif Baba254 views5 Sept 2021
+Hello Friends! Welcome To My  Channel MrArif Baba
+How to Create Mobile RDP || Android RDP || IOS RDP 
+
+This Video for educational purposes, RDP can be used to test different projects, not to abuse or initiate illegal activities !!!
+
+Links :
+https://github.com
+https://ngrok.com
+.......................................
+name: MrRDP
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    timeout-minutes: 9999
+
+    steps:
+    - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/rom... -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/rom... -OutFile start.bat
